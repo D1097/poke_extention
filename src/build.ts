@@ -9,5 +9,6 @@ const builder = new Builder({ watchFlag, devFlag, chromeFlag, firefoxFlag });
 builder.addBuildFile('src/pokeCursor/index.tsx');
 builder.addStaticFile('src/pokeCursor/pokeCursor.html');
 builder.addStaticDir('icons');
+builder.addStaticFile('src/contextMenu/event.js');
 
 builder.build();
