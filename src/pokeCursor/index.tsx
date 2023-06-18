@@ -120,21 +120,6 @@ const MouseStalker: FC = () => {
     }
   }
   return (
-    // <animated.div
-    //   style={{
-    //     ...mouseStyles,
-    //     ...springStyles,
-    //   }}
-    //   id='poke-cursor-api'
-    // >
-    //   <img
-    //     style={{
-    //       width: '75px',
-    //       height: '75px',
-    //     }}
-    //     src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${num}.png`}
-    //   />
-    // </animated.div>
     <DisplayComponent />
   )
 }
@@ -142,7 +127,3 @@ const MouseStalker: FC = () => {
 // @ts-ignore
 const root = ReactDOM.createRoot(document.querySelector('#poke-div'))
 root.render(<MouseStalker />)
-
-// ReactDOM.createRoot(
-//   document.querySelector('#poke-div'), <MouseStalker />
-// );

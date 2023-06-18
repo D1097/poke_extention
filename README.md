@@ -1,3 +1,8 @@
+# Poke-extention
+・This extension is loaded by placing the "dist-chrome" folder.
+・You are not allowed to use this extension for commercial purposes.
+・You can select the Mouse Tracker mode and Corner Pin mode from the [PokeExtension] option in the right-click menu.
+・When in Corner Pin mode, if you click on a Pokémon, it will move clockwise, and the displayed Pokémon will change accordingly.
 # Template for a browser extension
 
 Build a browser extension with React + TypeScript + esbuild.
